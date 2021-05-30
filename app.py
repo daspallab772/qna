@@ -13,7 +13,7 @@ def Q_to_A(question,context):
     #model_file = 'finalized_model_pipeline.sav'
     # load the model from disk
     #nlp = pickle.load(open(model_file, 'rb'))
-    nlp = pipeline('question-answering',model = 'bert-large-cased-whole-word-masking-finetuned-squad')
+    nlp = pipeline('question-answering',model ='mrm8488/bert-small-finetuned-squadv2') #'bert-large-cased-whole-word-masking-finetuned-squad')
     ans= nlp(question = question, context = context)
     #print('Question:- "' + question3 + '"')
     #print('Answer:- "' +ans['answer'] + '"')
