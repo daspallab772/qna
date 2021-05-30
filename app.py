@@ -29,7 +29,7 @@ st.title("📄 Text to Question and Answer ")
 
 transcript = st.text_input("Put your text in English (or Hindi, Bengali, Marathi)",'')
 
-select_language = st.selectbox("Select the text laguage from the drop down",("Please select correct audio language","English(USA)","English(India)","Hindi(India)","Bengali(India)","Marathi(India)"))
+select_language = st.selectbox("Select the text laguage from the drop down",("Please select correct language as per your text","English(USA)","English(India)","Hindi(India)","Bengali(India)","Marathi(India)"))
 
 if select_language == "English(USA)":
     language = "en-US"
