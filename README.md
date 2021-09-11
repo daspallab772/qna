@@ -4,3 +4,9 @@ BERT light model is used in this app
 
 # App description:
 This app helps to provide a response to a question asked by user from a given text. i.e. this app reads a text and user can ask any question related to text and get a suiatble answer
+
+
+link to access the app:
+https://qnapd.herokuapp.com/
+
+Note: The app may take little longer time for initial load.
