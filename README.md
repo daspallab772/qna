@@ -8,5 +8,6 @@ This app helps to provide a response to a question asked by user from a given te
 
 link to access the app:
 https://qnapd.herokuapp.com/
+Please note link is not working now
 
 Note: The app may take little longer time for initial load.
